@@ -3,10 +3,10 @@
 int main()
 {
 	int no;
-	printf("\nEnter a number");
-	scanf("%d",&no);
-	for(int i=(no-1);i>=0;i--)
+	printf("\nEnter the number");
+	scanf("%d",&num);
+	for(int i=(num-1);i>=0;i--)
 	no+=i;
-	printf("\n%d",no);
+	printf("\n%d",num);
 	return 0;
 }
